@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://wallpapers.com/images/featured/golden-gate-bridge-background-t1d72q9rzrw9r2e9.jpg");
+  background-size: cover;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: MidnightBlue;
+}
+
+.add-contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: aliceblue;
+  opacity: 0.9;
+  margin: 20px 0px 80px 0px;
+}
+
+.add-contact input {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn {
+  margin: 5px;
+  padding: 10px;
+  background-color: RoyalBlue;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.contact-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: Azure;
+  margin: 40px 0px 40px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-card img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+}
+
+.delbutton {
+  margin: 5px;
+  padding: 10px;
+  background-color: RoyalBlue;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 70px;
+  cursor: pointer;
+}
+
+/* modal */
+.main-modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.inner-modal {
+  width: 500px;
+  height: 200px;
+  background-color: #ffffff;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.close {
+  text-align: end;
+}
+
+.inp-edit-name {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.inp-edit-phone {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.inp-edit-image {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn-save {
+  margin: 5px;
+  padding: 10px;
+  background-color: RoyalBlue;
+  color: #ffffff;
+  border-radius: 5px;
+}

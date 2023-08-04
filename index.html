@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container2">
+        <div class="add-contact">
+          <h1>Contact Book</h1>
+          <input type="text" id="name" placeholder="Name" />
+          <input type="tel" id="phone" placeholder="Phone Number" />
+          <input type="file" id="image" accept="image/*" />
+          <button class="btn"><strong>Add Contact</strong></button>
+        </div>
+      </div>
+
+      <div id="contactList"></div>
+    </div>
+    <div class="main-modal" style="display: none">
+      <div class="inner-modal">
+        <div class="close">
+          <button class="btn-closer">X</button>
+        </div>
+        <input type="text" class="inp-edit-name" placeholder="Name" />
+        <input type="text" class="inp-edit-phone" placeholder="Phone" />
+        <input type="file" class="inp-edit-image" accept="image/*" />
+        <button class="btn-save">Save Changes</button>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
